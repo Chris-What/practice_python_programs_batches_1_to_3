@@ -9,5 +9,5 @@ while True:
             lowest = num
     
     except ValueError:
-        print(f"The lowest number entered is: {lowest}.")
+        print(f"Out of all the numbers entered, the lowest number is: {lowest}.")
         break
