@@ -2,8 +2,8 @@
 
 num_list = []
 
-for i in range(100):
+for i in range(101):
     if i % 10 != 0:
         num_list.append(i)
 
-print(f"The list of numbers from 0 to 100, except those ending in 0, is: {num_list}.")
+print(f"The list of numbers from 0 to 100, except those ending in 0, is: {num_list}")
