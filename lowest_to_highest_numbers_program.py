@@ -8,7 +8,7 @@ while True:
         num_list.append(num)
 
     except ValueError:
-        print("The list of numbers, arranged from lowest to highest, is:")
+        print("The list of numbers entered, arranged from lowest to highest, is:")
 
         num_list.sort()
         for num in num_list:
