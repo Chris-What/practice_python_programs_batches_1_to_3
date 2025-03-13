@@ -8,8 +8,8 @@ for i in range(10):
 
 print("Out of the ten numbers entered, the number/s that has/have a duplicate is/are:")
 
-alr_printed = set()
+printed_num = set()
 for num in num_list:
-    if num_list.count(num) > 1 and num not in alr_printed:
+    if num_list.count(num) > 1 and num not in printed_num:
         print(num)
-        alr_printed.add(num)
+        printed_num.add(num)
