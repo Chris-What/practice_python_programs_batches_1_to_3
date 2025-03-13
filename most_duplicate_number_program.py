@@ -12,4 +12,4 @@ while True:
 
 most_duplicates = max(set(num_list), key=num_list.count)
 
-print(f"Out of all the numbers entered, the number with the most duplicates is: {most_duplicates}.")
+print(f"Out of all the numbers entered, the number with the most duplicates is: {most_duplicates}")
