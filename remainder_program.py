@@ -7,4 +7,4 @@ if num_2 == 0:
     print("Undefined; cannot divide by zero.")
 else:
     remainder = num_1 % num_2
-    print(f"The remainder of {num_1} divided by {num_2} is: {remainder}.")
+    print(f"The remainder of {num_1} divided by {num_2} is: {remainder}")

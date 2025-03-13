@@ -10,4 +10,4 @@ difference = num_list[0]
 for num in num_list[1:]:
     difference -= num
 
-print(f"The difference of the first number {num_list[0]} minus the rest of the numbers is: {difference}.")
+print(f"The difference of the first number {num_list[0]} minus the rest of the numbers is: {difference}")
