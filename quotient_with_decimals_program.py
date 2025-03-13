@@ -7,4 +7,4 @@ if num_2 == 0:
     print("Undefined; cannot divide by zero.")
 else:
     quotient = num_1 / num_2
-    print(f"The quotient of the two numbers is: {quotient}.")
+    print(f"The quotient of the two numbers is: {quotient}")
