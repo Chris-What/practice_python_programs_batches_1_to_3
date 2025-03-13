@@ -10,7 +10,7 @@ while True:
     except ValueError:
         print("The list of numbers entered, arranged from highest to lowest, is:")
 
-        num_list.sort(reverse = True)
+        num_list.sort(reverse=True)
         for num in num_list:
             print(num)
         break
